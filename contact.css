@@ -1,0 +1,183 @@
+/*-------------GENERAL CONTENT------------*/
+
+body{
+  margin-top: 0;
+  padding: 0;
+  background: url(img/bg.jpg) no-repeat;
+  background-size: cover;
+}
+.box{
+  width: 450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+
+.box p{
+  text-align: justify;
+}
+.box a{
+  text-align: justify;
+  color: white;
+}
+.box a:hover{
+  background-color: rgb(62.62.62);
+	color: #649efb;
+	cursor: pointer;
+	transform: scale(1.05);
+	transition: all 0.4s ease;
+  opacity: 1;
+	text-decoration: none
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+  color: #b9b9b9;
+  background-color: rgb(62.62.62);
+	color: #649efb;
+	cursor: pointer;
+	transform: scale(1.05);
+	transition: all 0.4s ease;
+  opacity: 1;
+	text-decoration: none
+}
+
+
+/*-------------NAV BAR------------*/
+
+.nav-bar{
+	top: 0;
+	position: sticky;
+	z-index: 2;
+}
+.navbar{
+	background-color: #000;
+}
+.navbar-brand{
+	color: white;
+}
+.nav-bar .fa-bars{
+	font-size: 35px;
+	color: #fff;
+}
+
+.nav-link{
+	color: white;
+
+}
+
+.nav-link:hover{
+	background-color: rgb(62.62.62);
+	color: #649efb;
+	cursor: pointer;
+	transform: scale(1.05);
+	transition: all 0.4s ease;
+
+}
+
+.navbar-brand:hover{
+	background-color: rgb(62.62.62);
+	color: #649efb;
+	cursor: pointer;
+	transform: scale(1.05);
+	transition: all 0.4s ease;
+
+}
+
+
+/*-------------MAKE RESPONSIVE------------*/
+
+@media only screen and (max-width: 1500px) {
+
+  body{
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    background: url(img/bg.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+	  flex-direction: row;
+	  flex-wrap: wrap;
+  }
+  .box{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+  .box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+  .box p{
+    text-align: justify;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover{
+    color: #b9b9b9;
+  }
+
+
+}
